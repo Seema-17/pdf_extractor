@@ -27,6 +27,6 @@ for file in filenames:
         page_num = 1
         map_pdf_pagenum[pdf_type] = 1
     
-    if filename.endswith(".jpg"):
-        ext.jsonExtractor(filename, page_num)
+    if filename.endswith("AmazonWebServices3_1.jpg"):
+        ext.jsonExtractor(filename, page_num)   
         

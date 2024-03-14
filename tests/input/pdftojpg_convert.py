@@ -20,7 +20,7 @@ def convertPdfToJpg(pdffile):
 for file in os.listdir(directory):
     filename = os.fsdecode(file)
     print(filename)
-    if filename.endswith('.pdf'):
+    if filename.endswith('AmazonWebServices3.pdf'):
         convertPdfToJpg(filename)
 
 

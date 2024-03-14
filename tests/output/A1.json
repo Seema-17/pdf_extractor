@@ -1,0 +1,207 @@
+{
+    "pdf_type": "A1",
+    "page_1": {
+        "page_num": 1,
+        "0": {
+            "var_name": "amazon"
+        },
+        "1": {
+            "var_name": "Amazon Web Services Invoice"
+        },
+        "2": {
+            "var_name": "webservices\""
+        },
+        "3": {
+            "var_name": "Email or talk to us about your AWS account or bil, visit aws.amazon.com/contact-us/"
+        },
+        "4": {
+            "var_name": "Account number"
+        },
+        "5": {
+            "var_name": "Invoice Summary"
+        },
+        "6": {
+            "var_name": "640309409167"
+        },
+        "7": {
+            "var_name": "Invoice Number:"
+        },
+        "8": {
+            "var_name": "49427982"
+        },
+        "9": {
+            "var_name": "Invoice Date:"
+        },
+        "10": {
+            "var_name": "February 3 , 2015"
+        },
+        "11": {
+            "var_name": "Bill to Address:"
+        },
+        "12": {
+            "var_name": "ATTN: Nathan Marcos Lusa"
+        },
+        "13": {
+            "var_name": "TOTAL AMOUNT DUE ON February 3,2015"
+        },
+        "14": {
+            "var_name": "$3.00"
+        },
+        "15": {
+            "var_name": "Rua Icara 98"
+        },
+        "16": {
+            "var_name": "Florianopolis, Santa Catarina, 88032500, BR"
+        },
+        "17": {
+            "var_name": "This invoice is for the billing period January 1 - January 31 , 2015"
+        },
+        "18": {
+            "var_name": "Greetings from Amazon Web Services, were writing to provide you with an electronic invoice for your use of AWS services. Additional information"
+        },
+        "19": {
+            "var_name": "regarding your bill, individual service charge details, and your account history are available on the Account Activity Page."
+        },
+        "20": {
+            "var_name": "Summary"
+        },
+        "21": {
+            "var_name": "AWS Service Charges"
+        },
+        "22": {
+            "var_name": "$3.00"
+        },
+        "23": {
+            "var_name": "Charges"
+        },
+        "24": {
+            "var_name": "$3.00"
+        },
+        "25": {
+            "var_name": "Credits"
+        },
+        "26": {
+            "var_name": "$0.00"
+        },
+        "27": {
+            "var_name": "Tax *"
+        },
+        "28": {
+            "var_name": "$0.00"
+        },
+        "29": {
+            "var_name": "Total for this invoice"
+        },
+        "30": {
+            "var_name": "$3.00"
+        },
+        "31": {
+            "var_name": "Detail"
+        },
+        "32": {
+            "var_name": "AWS Data Transfer"
+        },
+        "33": {
+            "var_name": "$0.00"
+        },
+        "34": {
+            "var_name": "Charges"
+        },
+        "35": {
+            "var_name": "$0.00"
+        },
+        "36": {
+            "var_name": "VAT **"
+        },
+        "37": {
+            "var_name": "$0.00"
+        },
+        "38": {
+            "var_name": "Amazon Elastic Compute Cloud"
+        },
+        "39": {
+            "var_name": "$3.00"
+        },
+        "40": {
+            "var_name": "Charges"
+        },
+        "41": {
+            "var_name": "$3.00"
+        },
+        "42": {
+            "var_name": "VAT **"
+        },
+        "43": {
+            "var_name": "$0.00"
+        },
+        "44": {
+            "var_name": "Amazon Simple Storage Service"
+        },
+        "45": {
+            "var_name": "$0.00"
+        },
+        "46": {
+            "var_name": "Charges"
+        },
+        "47": {
+            "var_name": "$0.00"
+        },
+        "48": {
+            "var_name": "VAT **"
+        },
+        "49": {
+            "var_name": "$0.00"
+        },
+        "50": {
+            "var_name": "* May include estimated US sales tax, VAT, GST and CT"
+        },
+        "51": {
+            "var_name": "Service Provider:"
+        },
+        "52": {
+            "var_name": "** This is not a VAT invoice"
+        },
+        "53": {
+            "var_name": "(Not to be used for payment remittance)"
+        },
+        "54": {
+            "var_name": "*** Check the GST statement attached at the end of this Invoice"
+        },
+        "55": {
+            "var_name": "Amazon Web Services, Inc."
+        },
+        "56": {
+            "var_name": "for details"
+        },
+        "57": {
+            "var_name": "Seattle, WA 98109-5210, US"
+        },
+        "58": {
+            "var_name": "410 Terry Ave North"
+        },
+        "59": {
+            "var_name": "your next billing date. The amount of your actual charges for this statement"
+        },
+        "60": {
+            "var_name": "period may differ from the charges shown on this page. The charges"
+        },
+        "61": {
+            "var_name": "shown on this page do not include any additional usage charges accrued"
+        },
+        "62": {
+            "var_name": "during this statement period after the date you are viewing this page. Also."
+        },
+        "63": {
+            "var_name": "one-time fees and subscription charges are assessed separately, on the"
+        },
+        "64": {
+            "var_name": "date that they occur."
+        },
+        "65": {
+            "var_name": "All charges and prices are in US Dollars"
+        },
+        "66": {
+            "var_name": "All AWS Services are sold by Amazon Web Services, Inc."
+        }
+    }
+}

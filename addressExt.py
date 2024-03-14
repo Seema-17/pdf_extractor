@@ -24,58 +24,62 @@ def extract_text_with_coordinates(pdf_path):
                 })
     return text_with_coordinates
 
+
+def get_address(path):
 # Example usage
-pdf_path = './tests/input/AmazonWebServices.pdf'
-text = extract_text(pdf_path)
-text_with_coordinates = extract_text_with_coordinates(pdf_path)
+    pdf_path = path
+    text = extract_text(pdf_path)
+    text_with_coordinates = extract_text_with_coordinates(pdf_path)
 
-# print("Extracted Text:")
-# print(text)
+    # print("Extracted Text:")
+    # print(text)
 
-# print("\nText with Coordinates:")
-# for item in text_with_coordinates:
-#     print(f"Text: {item['text']}, Coordinates: ({item['x0']}, {item['top']}) to ({item['x1']}, {item['bottom']})")
+    # print("\nText with Coordinates:")
+    # for item in text_with_coordinates:
+    #     print(f"Text: {item['text']}, Coordinates: ({item['x0']}, {item['top']}) to ({item['x1']}, {item['bottom']})")
 
-x_coord = -1.00000
-max_y_coord = -1.00000
+    x_coord = -1.00000
+    max_y_coord = -1.00000
 
-for item in text_with_coordinates:
-    if item['text'] == 'Bill':
-        x_coord = item['x0']
-        y_coord = item['top']
-        max_y_coord = max(max_y_coord, item['top'])
+    for item in text_with_coordinates:
+        if item['text'] == 'Bill':
+            x_coord = item['x0']
+            y_coord = item['top']
+            max_y_coord = max(max_y_coord, item['top'])
 
-item_x_coord = []
-for item in text_with_coordinates:
-    if item['x0'] == x_coord and item['top'] > y_coord:
-        item_x_coord.append(item)
+    item_x_coord = []
+    for item in text_with_coordinates:
+        if item['x0'] == x_coord and item['top'] > y_coord:
+            item_x_coord.append(item)
 
-line_gap = item_x_coord[1]['top'] - item_x_coord[0]['top']
-# print(line_gap)
-numLines = 0
+    line_gap = item_x_coord[1]['top'] - item_x_coord[0]['top']
+    # print(line_gap)
+    numLines = 0
 
-for i in range(0, len(item_x_coord)-1):
-    gap = item_x_coord[i+1]['top'] - item_x_coord[i]['top']
-    if gap == line_gap:
-        continue
-    else:
-        numLines = i+1
-        break
+    for i in range(0, len(item_x_coord)-1):
+        gap = item_x_coord[i+1]['top'] - item_x_coord[i]['top']
+        if gap == line_gap:
+            continue
+        else:
+            numLines = i+1
+            break
 
-item_x_coord = item_x_coord[:numLines]
+    item_x_coord = item_x_coord[:numLines]
 
-# for item in item_x_coord:
-#     print(item)
+    # for item in item_x_coord:
+    #     print(item)
 
-all_items = []
+    all_items = []
+    
+    print("Address")
 
-for item in item_x_coord:
-    s = ""
-    y_cord = item['top']
-    for it in text_with_coordinates:
-        if it['top'] == y_cord:
-            s = s + it['text'] + " "
-    print(s)
+    for item in item_x_coord:
+        s = ""
+        y_cord = item['top']
+        for it in text_with_coordinates:
+            if it['top'] == y_cord:
+                s = s + it['text'] + " "
+        print(s)
 
 
 
